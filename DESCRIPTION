@@ -1,0 +1,11 @@
+Package: QuantNorm
+Type: Package
+Title: Quantile Normalization
+Version: 0.1.0
+Author: Zach Smith
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: More about what it does (maybe more than one line)
+    Use four spaces when indenting paragraphs within the Description.
+License: Free as in Freedom
+Encoding: UTF-8
+LazyData: true
