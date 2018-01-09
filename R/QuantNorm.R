@@ -32,9 +32,9 @@ quantileNorm <- function(df, group, vals){
 }
 
 quantileNormMatrix <- function(df){
-  ordrd <- t(apply(df, 1, function(x){x[order(x)]}))
+  ordrd <- t(apply(df, 2, function(x){x[order(x)]}))
   clmns <- colMeans(ordrd)
-  t(apply(df, 1, function(x){clmns[order(x)]}))
+  (apply(df, 2, function(x){clmns[order(order(x))]}))
 }
 
 scaleNorm <- function(df, group, vals){
